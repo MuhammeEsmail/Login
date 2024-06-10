@@ -106,6 +106,11 @@ function clearForm() {
     signUpPassword.value=null;
     email.value=null;
     password.value=null;
+    signUpName.classList.remove('is-invalid','is-valid');
+    signUpEmail.classList.remove('is-invalid','is-valid');
+    signUpPassword.classList.remove('is-invalid','is-valid');
+    email.classList.remove('is-invalid','is-valid');
+    password.classList.remove('is-invalid','is-valid');
 }
 
 
